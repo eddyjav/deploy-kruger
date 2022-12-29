@@ -1,0 +1,86 @@
+.nav-title{
+ 
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* .nav-container{
+  background-color: lightgreen;
+  width: 100vw;
+} */
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foot-container{
+  text-align: center;
+  background-color: lightgreen;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 100vw;
+}
+
+.fecha{
+  width: 200px;
+  padding: 2px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.boton{
+  margin-left: 40px;
+  width: 100px;
+  padding: 2px;
+  border-radius: 25px;
+}
+
+.card {
+  background-color: #484848;
+  width: 400px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  box-shadow: 0 8px 5px 0px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.card-edad{  
+  background-color: #484848;
+  width: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 8px 5px 0px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding-bottom: 5px;
+  color: aliceblue;
+}
+.card-container {
+  display: flex;  
+  width: 400px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.nav-container{
+  background-color: lightgreen;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+
+}
+
+a{
+  text-decoration: none;
+  margin-left: 15px;
+}
