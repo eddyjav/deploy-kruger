@@ -1,7 +1,5 @@
 import React from 'react'
 import { Animals } from '../components/Animals'
-import { Footer } from '../components/Footer'
-import { Navbar } from '../components/Navbar'
 
 const About = () => {
       const vaca = {
