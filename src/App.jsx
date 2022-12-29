@@ -4,7 +4,7 @@ import './App.css';
 import HomePage from "./pages/HomePage";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import {  HashRouter, Link, Route, Routes } from "react-router-dom";
+import {  HashRouter, Route, Routes } from "react-router-dom";
 
 
 export const App = () => {
