@@ -4,7 +4,7 @@ import './App.css';
 import HomePage from "./pages/HomePage";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import {  Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import {  Route, Routes } from "react-router-dom";
 
 
 export const App = () => {
@@ -25,7 +25,8 @@ export const App = () => {
 
 
 return (
-  <Router>
+  // <BrowserRouter>
+  <>
     <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -33,6 +34,8 @@ return (
         <Route path="/contact" element={<Contact />}  />
       </Routes>
     <Footer {...footerInfo}/>
-  </Router>  
+  </>
+  
+  // </BrowserRouter>  
   );
 };
