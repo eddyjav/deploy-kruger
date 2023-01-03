@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import {  HashRouter, Route, Routes } from "react-router-dom";
+import Button from "./components/Button";
 
 
 export const App = () => {
@@ -34,6 +35,8 @@ return (
         <Route path="/about" element={<About />}  />
         <Route path="/contact" element={<Contact />}  />
       </Routes>
+      <Button>Click me</Button>
+      <Button inverted>Click me</Button>
     <Footer {...footerInfo}/>
   </HashRouter>
     
